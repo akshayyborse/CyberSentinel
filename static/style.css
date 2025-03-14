@@ -1,0 +1,25 @@
+.threat-alert {
+    background-color: #ff4444;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.safe-alert {
+    background-color: #00C851;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.scanning-animation {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+} 
